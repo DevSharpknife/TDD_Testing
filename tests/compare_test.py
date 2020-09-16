@@ -9,3 +9,4 @@ class TestCompare(unittest.TestCase):
     
     def test_compare__greater_than(self):
         self.assertEqual("3 is greater than 1", compare(3, 1))
+        self.assertEqual("4 is less than 11", compare(4, 11))
