@@ -12,3 +12,6 @@ class TestCompare(unittest.TestCase):
 
     def test_compare__less_than(self):
         self.assertEqual("4 is less than 11", compare(4, 11))
+
+    def test_compare__eeksy_peeksy(self):
+        self.assertEqual("both numbers are equal", compare(21, 21))
